@@ -20,6 +20,9 @@ body
 	margin: 0;
 	font-family: sans-serif;
 }
+.icon-menu{
+	display: none;
+}
 .container
 {
 	width: 900px;
@@ -33,7 +36,9 @@ body
 .logo{
 	width: 200px;
 }
-
+.clearfix{
+	display: table;
+}
 .clearfix:after
 {
 	content:" ";
@@ -89,7 +94,7 @@ header{
 	font-size: 55px;
 
 }
-.list
+.spring .list
 {
 	color:white;
 	float: right;
@@ -98,15 +103,17 @@ header{
 	padding: 0;
 	position: relative;
 	right: 20%;
+	font-size: 15px;
 }
-.list li
+.spring .list li
 {
 	display: inline-block;
 }
-.list li a
+.spring .list li a
 {
 	display: block;
 	padding: 15px 10px;
+
 }
 
 
@@ -177,10 +184,57 @@ footer{
 	height: 70px;
 	padding-top: 20px;
 }
+
+
+
 @media screen and (max-width : 920px) {
+	.container, .container_hero{
+		width: 600px;
+	}
+	.caja{
+		width: 350px;
+		height: 250px;
+		position: relative;
+		left: 25%;
+		padding-top: 1px,
+
+	}
+	.icon-menu {
+		display: inline-block;
+		float: right;
+		color: white;
+		font-size: 20px;
+	}
+	.list-menu{
+		display:none;
+	}
+
 
 }
 
 @media screen and (max-width: 600px) {
 
+	.container, .container_hero, .caja{
+		width: 100%;
+	}
+
+	.list-menu{
+		display:none;
+	}
+	.col-2{
+		display:none;
+	}
+	.col-1, .col-2, .col-3{
+		width: 100%;
+	}
+	.list li a{
+		font-size: 10px;
+	}
+	.caja{
+		
+		width: 250px;
+		height: 250px;
+	}
+
+	
 }
