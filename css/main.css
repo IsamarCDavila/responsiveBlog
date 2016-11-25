@@ -1,8 +1,8 @@
 /* Inserta tu codigo aqui */
 
-/* Responsive */
+/* Responsive*/ 
 *{
-	outline: 1px solid rgba(255,0,0,0.4);
+	/*outline: 1px solid rgba(255,0,0,0.4);*/
 	font-family: Courgette;
 }
 .clearfix
@@ -52,6 +52,7 @@ header{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	color:white;
 }
 .list-menu li
 {
@@ -107,13 +108,17 @@ header{
 }
 
 
-.col-1, .col-2 , .col3
+.col-1, .col-2
 {
 	float: left;
 	box-sizing: border-box;
 	padding: 10px;
 }
-
+.col-3{
+	float: right;
+	box-sizing: border-box;
+	padding: 10px;
+}
 .col-1
 {
 	width: 33%;
@@ -133,6 +138,20 @@ header{
 	margin-top: -10px;
 	background-color: #171019;
 }
+.buscar{
+	width: 83%;
+	height: 30px;
+	background-color: #171019;
+	padding: 30px;
+	padding-top: 28px;
+
+
+}
+.user{
+	background-color: #423746;
+	margin:25px;
+	border-radius: 1px;
+}
 h3{
 	color: #EDC84D;
 	text-align: center;
@@ -141,6 +160,16 @@ h3{
 p{
 	color:white;
 	text-align: center;
+}
+h4, .amanda{
+	color:white;
+	text-align: center;
+}
+footer{
+	background-color:#383733;
+	text-align: center;
+	height: 70px;
+	padding-top: 20px;
 }
 @media screen and (max-width : 920px) {
 
