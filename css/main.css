@@ -62,6 +62,8 @@ header{
 {
 	display: block;
 	padding: 15px 10px;
+	text-decoration: none;
+	color:white;
 }
 
 .container_hero{
@@ -144,13 +146,17 @@ header{
 	background-color: #171019;
 	padding: 30px;
 	padding-top: 28px;
+	padding-left: 30px;
 
 
 }
-.user{
+.input{
 	background-color: #423746;
-	margin:25px;
-	border-radius: 1px;
+	padding:7px;
+	border-radius: 5px;
+	width: 80%;
+	padding-left: 30px;
+	border-color: #423746;
 }
 h3{
 	color: #EDC84D;
